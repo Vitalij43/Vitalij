@@ -1,0 +1,65 @@
+$MOD51
+jmp start
+org 0bh
+clr TCON.4
+reti
+org 20h
+
+start:
+clr C 
+mov TMOD,#01h 
+setb IE.7 
+setb IE.1 
+mov P2,#0h 
+
+Period:
+mov A,#0h 
+mov TL0,#50h
+mov TH0,#0FFh
+mov P2,A
+setb TCON.4 
+next1:
+jnb TCON.5, next1 
+mov A,#35h 
+mov TL0,#12h
+mov TH0,#0FFh
+mov P2,A
+setb TCON.4 
+
+next2:
+add A,#-1h 
+mov P2,A
+jnb TCON.5,next2 
+mov A, #0FFh 
+mov TL0,#12h
+mov TH0,#0FFh
+mov P2,A
+setb TCON.4 
+
+next4:
+add A,#-2h 
+add A,#-1h
+mov P2,A
+jnb TCON.5,next4 
+mov A,#02Fh 
+mov TL0,#012h
+mov TH0,#0FFh
+mov P2,A
+setb TCON.4 
+
+next5:
+mov P2,A
+jnb TCON.5,next5
+mov A,#0h
+mov TL0,#012h
+mov TH0,#0FFh
+mov P2,A
+setb TCON.4 ;
+
+next6:
+jnb TCON.5,next6
+ 
+clr C
+
+jmp Period 
+END

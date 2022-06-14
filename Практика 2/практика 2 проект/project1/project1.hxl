@@ -1,0 +1,25 @@
+### HEXMate logfile and output summary ###
+### Memory Usage ###
+ Unused memory ranges:
+  9Dh - FFh
+  10Ch - 13Fh
+  
+ C:\Users\USER\Desktop\3F328~1\3F75B~1\CC2A~1\53F3~1\2B5F3~1\2B823~1\project1\project1.hex ranges:
+  0h - 9Ch
+  100h - 10Bh
+  
+### Hex Memory Map ###
+ Legend:
+  - = Unused memory
+  F = Filled ROM
+  S = Stored serial code
+  A = Stored ASCII string
+  R = Reserved for checksum
+  C = Stored checksum result
+  T = Trailing code
+  & = Find & replace opcode
+  1 = C:\Users\USER\Desktop\3F328~1\3F75B~1\CC2A~1\53F3~1\2B5F3~1\2B823~1\project1\project1.hex
+00000000: 1111111111111111111111111111111111111111111111111111111111111111
+00000040: 1111111111111111111111111111111111111111111111111111111111111111
+00000080: 11111111111111111111111111111-----------------------------------
+00000100: 111111111111----------------------------------------------------

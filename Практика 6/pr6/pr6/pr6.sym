@@ -1,0 +1,90 @@
+__Lrdata 49 FFFFFFBA DATA
+__Hrbss 49 0 DATA
+__Lrbss 20 0 DATA
+strx_xcopy 3 0 CODE
+__Birdata 3 FFFFFFBA DATA
+__Hirdata 49 FFFFFFBA DATA
+__Lirdata 49 FFFFFFBA DATA
+powerup 58 0 CODE
+__Htext 49 0
+__Ltext 49 0
+_pp 124 0 CODE
+strx_copy 19 0 CODE
+__Hcode 49 0
+__Lcode 49 0
+__Hdata 124 0 CODE
+__Hconst 100 0 CODE
+__Ldata 100 0 CODE
+__Lconst 100 0 CODE
+__Bbss 49 0 XDATA
+__Hbss 49 0 XDATA
+__Hstrings 100 0 CODE
+__Lbss 49 0 XDATA
+__Lstrings 100 0 CODE
+str_xcopy 3 0 CODE
+__S0 239 0
+start1 44 0 CODE
+__Hnvram 49 0 XDATA
+small_model 1 0
+__Lnvram 49 0 XDATA
+__Hheap 49 0 XDATA
+__Lheap 49 0 XDATA
+_main 148 0 CODE
+str_copy 19 0 CODE
+?a_pp 48 0 DATA
+?a_main 20 0 DATA
+_exit 55 0 CODE
+start 0 0 CODE
+intlevel0 0 0
+strx_load 19 0 CODE
+__Brbit 20 20 BITSEG
+str_load 19 0 CODE
+__Hrbit 0 20 BITSEG
+intlevel1 0 0
+__Hvectors 3 0 CODE
+__Lrbit 0 20 BITSEG
+__Lvectors 0 0 CODE
+__Bidata 49 0 DATA
+__Hidata 49 0 DATA
+__Lidata 49 0 DATA
+stack_internal 1 0
+__Brdata 3 FFFFFFBA DATA
+__Hrdata 49 FFFFFFBA DATA
+%segments
+vectors 0 5A CODE
+rbit 0 28 BITSEG
+data 100 238 CODE
+%locals
+C:\Users\USER\Desktop\3F328~1\3F75B~1\CC2A~1\53F3~1\65D01~1\pr6\pr6\main_0.obj
+C:\Users\USER\Desktop\3F328~1\3F75B~1\CC2A~1\53F3~1\65D01~1\pr6\pr6\main.c
+3 124 0 CODE
+4 126 0 CODE
+6 128 0 CODE
+7 12B 0 CODE
+8 12E 0 CODE
+9 131 0 CODE
+10 134 0 CODE
+11 136 0 CODE
+12 138 0 CODE
+13 143 0 CODE
+15 145 0 CODE
+17 148 0 CODE
+18 14B 0 CODE
+19 155 0 CODE
+20 164 0 CODE
+21 173 0 CODE
+24 182 0 CODE
+26 185 0 CODE
+27 19A 0 CODE
+26 1A4 0 CODE
+29 1BA 0 CODE
+30 1BF 0 CODE
+31 1D4 0 CODE
+30 1DE 0 CODE
+33 1F4 0 CODE
+34 1F9 0 CODE
+35 20E 0 CODE
+34 218 0 CODE
+37 22E 0 CODE
+40 233 0 CODE
+41 235 0 CODE
